@@ -1,0 +1,125 @@
+/* Next-gen Farming System - Clean Green Theme */
+
+/* Base & Typography */
+.stApp {
+    background: linear-gradient(135deg, #f8fdf8, #f0f7f0);
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #2c3e50;
+}
+
+h1, h2, h3 {
+    color: #2E7D32;
+    font-weight: 700;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-right: 1px solid #c5e1a5;
+}
+
+section[data-testid="stSidebar"] .stRadio label {
+    font-weight: 500;
+    color: #33691E;
+}
+
+/* Buttons & Interactive Elements */
+.stButton > button, button {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.5rem 1.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+}
+
+.stButton > button:hover, button:hover {
+    background-color: #388E3C !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+}
+
+/* Form Elements */
+input, textarea, .stTextInput > div > div > input, .stNumberInput > div > div > input {
+    border-radius: 8px !important;
+    border: 1px solid #c5e1a5 !important;
+    padding: 8px !important;
+}
+
+.stSlider > div > div > div > div {
+    background-color: #4CAF50 !important;
+}
+
+/* Status Colors & Cards */
+.stSuccess, div[data-baseweb="notification"] {
+    background-color: #e8f5e9 !important;
+    border-left: 4px solid #4CAF50 !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+}
+
+.stInfo {
+    background-color: #e8f5e9 !important;
+    border-left: 4px solid #4CAF50 !important;
+}
+
+.stWarning {
+    background-color: #fff8e1 !important;
+    border-left: 4px solid #FFC107 !important;
+}
+
+.stError {
+    background-color: #ffebee !important;
+    border-left: 4px solid #F44336 !important;
+}
+
+/* Chat Elements for Agribot */
+.stChatMessage {
+    border-radius: 12px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+}
+
+.css-card, div.home-banner, div.feature-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+div.home-banner {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32) !important;
+    color: white !important;
+}
+
+div.feature-card {
+    border-top: 3px solid #4CAF50;
+    transition: transform 0.3s ease;
+}
+
+div.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Expander, Plots & Tables */
+.stExpander, .stPlotlyChart, div[data-testid="stTable"] {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+    border-radius: 10px;
+}
+
